@@ -2,6 +2,7 @@
 
 TERRAFORM_VERSION="0.12.29"
 TERRAFORM_FILE="terraform_${TERRAFORM_VERSION}_linux_amd64.zip"
+SCENARIO_WORKSPACE="/tmp/scenario"
 USER_WORKSPACE="/root/workspace"
 
 # install `unzip`
@@ -25,13 +26,17 @@ unzip \
 rm \
   -rf "${TERRAFORM_FILE}"
 
-# create workspace
+# create scenario workspace
 mkdir \
-  -p "${USER_WORKSPACE}"
+  -p "${SCENARIO_WORKSPACE}"
 
 # clone course code into workspace
 git \
   clone \
     --depth=1 \
     "https://github.com/ksatirli/katacoda-scenarios.git" \
-    "${USER_WORKSPACE}"
+    "${SCENARIO_WORKSPACE}"
+
+# create user workspace
+mkdir \
+  -p "${USER_WORKSPACE}"
