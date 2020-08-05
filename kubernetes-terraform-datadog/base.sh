@@ -30,16 +30,16 @@ rm \
 mkdir \
   -p "${SCENARIO_WORKSPACE}"
 
-# clone course code into workspace
-git \
-  clone \
-    --depth=1 \
-    "https://github.com/ksatirli/katacoda-scenarios.git" \
-    "${SCENARIO_WORKSPACE}"
-
 # create user workspace
 mkdir \
   -p "${USER_WORKSPACE}"
 
-# copy relevant files to workspace
+# clone course code into workspace amd copy relevant files for `step1` to workspace
+git \
+  clone \
+    --depth=1 \
+    "https://github.com/ksatirli/katacoda-scenarios.git" \
+    "${SCENARIO_WORKSPACE}" \
+&& \
 cp "${SCENARIO_WORKSPACE}/{terraform,variables}.tf" "${USER_WORKSPACE}"
+
