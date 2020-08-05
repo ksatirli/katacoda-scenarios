@@ -24,11 +24,13 @@ unzip \
 
 # clean up
 rm \
-  -rf "${TERRAFORM_FILE}"
+  --recursive \
+  --force \
+  ${TERRAFORM_FILE}
 
 # create user workspace
 mkdir \
-  -p "${USER_WORKSPACE}"
+  -p ${USER_WORKSPACE}
 
 # clone course code into workspace amd copy relevant files for `step1` to workspace
 git \
@@ -36,3 +38,6 @@ git \
     --depth=1 \
     "https://github.com/ksatirli/katacoda-scenarios.git" \
     "${SCENARIO_WORKSPACE}" \
+
+cp \
+  ${SCENARIO_WORKSPACE}/k8s-terraform-datadog/step1/*.tf "${USER_WORKSPACE}"

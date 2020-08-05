@@ -4,8 +4,6 @@
 
 Copy the files for the first step:
 
-`cp "/tmp/scenario/k8s-terraform-datadog/step1/*.tf" "/root/workspace/"`{{execute}}
-
 Initialize the project:
 
 `terraform init`{{execute}}
