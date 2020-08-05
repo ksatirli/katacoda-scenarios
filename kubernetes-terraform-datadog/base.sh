@@ -18,6 +18,10 @@ unzip \
   "${TERRAFORM_FILE}" \
   -d "/usr/local/bin/"
 
+# clean up
+rm \
+  -rf "${TERRAFORM_FILE}"
+
 clear
 
 echo "Ready!"
