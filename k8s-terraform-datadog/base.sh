@@ -2,6 +2,7 @@
 
 TERRAFORM_VERSION="0.12.29"
 TERRAFORM_FILE="terraform_${TERRAFORM_VERSION}_linux_amd64.zip"
+SCENARIO_REPOSITORY="https://github.com/ksatirli/katacoda-scenarios.git"
 SCENARIO_WORKSPACE="/tmp/scenario"
 USER_WORKSPACE="/root/workspace"
 
@@ -36,8 +37,8 @@ mkdir \
 git \
   clone \
     --depth=1 \
-    "https://github.com/ksatirli/katacoda-scenarios.git" \
+    "${SCENARIO_REPOSITORY}" \
     "${SCENARIO_WORKSPACE}" \
-
+&& \
 cp \
-  ${SCENARIO_WORKSPACE}/k8s-terraform-datadog/step1/*.tf "${USER_WORKSPACE}"
+  ${SCENARIO_WORKSPACE}/k8s-terraform-datadog/step1/*.tf "${USER_WORKSPACE}/"
