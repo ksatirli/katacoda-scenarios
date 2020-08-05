@@ -41,5 +41,5 @@ git \
     "https://github.com/ksatirli/katacoda-scenarios.git" \
     "${SCENARIO_WORKSPACE}" \
 && \
-cp "${SCENARIO_WORKSPACE}/{terraform,variables}.tf" "${USER_WORKSPACE}"
+cp "${SCENARIO_WORKSPACE}/kubernetes-terraform-datadog/workspace/{terraform,variables}.tf" "${USER_WORKSPACE}"
 
