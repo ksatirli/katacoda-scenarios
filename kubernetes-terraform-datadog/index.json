@@ -37,7 +37,9 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "hideHiddenFiles": true,
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/root/workspace"
   },
   "backend": {
     "imageid": "kubernetes-cluster-running"

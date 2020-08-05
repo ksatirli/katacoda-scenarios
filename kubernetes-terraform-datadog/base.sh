@@ -24,4 +24,6 @@ unzip \
 rm \
   -rf "${TERRAFORM_FILE}"
 
-echo "Ready!"
+# create workspace
+mkdir \
+  -p "/root/workspace"
