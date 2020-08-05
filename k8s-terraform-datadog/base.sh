@@ -10,7 +10,7 @@ apt-get \
   install \
     --quiet \
     --yes \
-    unzip < "/dev/null"
+    "unzip"
 
 # fetch Terraform archive
 curl \
@@ -36,6 +36,5 @@ git \
     --depth=1 \
     "https://github.com/ksatirli/katacoda-scenarios.git" \
     "${SCENARIO_WORKSPACE}" \
-&& \
-cp "${SCENARIO_WORKSPACE}/kubernetes-terraform-datadog/workspace/step0/*.tf" "${USER_WORKSPACE}"
+
 
