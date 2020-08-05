@@ -1,6 +1,6 @@
 #!/bin/sh
 
-SCENARIO_WORKSPACE="/tmp/scenario"
+SCENARIO_WORKSPACE="/tmp/scenario/kubernetes-terraform-datadog"
 USER_WORKSPACE="/root/workspace"
 
 # copy relevant files to workspace
