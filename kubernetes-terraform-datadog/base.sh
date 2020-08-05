@@ -26,10 +26,6 @@ unzip \
 rm \
   -rf "${TERRAFORM_FILE}"
 
-# create scenario workspace
-mkdir \
-  -p "${SCENARIO_WORKSPACE}"
-
 # create user workspace
 mkdir \
   -p "${USER_WORKSPACE}"
@@ -41,5 +37,5 @@ git \
     "https://github.com/ksatirli/katacoda-scenarios.git" \
     "${SCENARIO_WORKSPACE}" \
 && \
-cp "${SCENARIO_WORKSPACE}/kubernetes-terraform-datadog/workspace/{terraform,variables}.tf" "${USER_WORKSPACE}"
+cp "${SCENARIO_WORKSPACE}/kubernetes-terraform-datadog/workspace/step0/*.tf" "${USER_WORKSPACE}"
 
