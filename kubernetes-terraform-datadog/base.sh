@@ -40,3 +40,6 @@ git \
 # create user workspace
 mkdir \
   -p "${USER_WORKSPACE}"
+
+# copy relevant files to workspace
+cp "${SCENARIO_WORKSPACE}/{terraform,variables}.tf" "${USER_WORKSPACE}"
