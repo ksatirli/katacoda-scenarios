@@ -4,7 +4,6 @@
   "icon": "fa-terraform",
   "difficulty": "Intermediate",
   "time": "120 minutes",
-  "private": true,
   "noindex": true,
   "details": {
     "steps": [
