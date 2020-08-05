@@ -1,8 +1,11 @@
 {
-  "title": "TODO",
+  "title": "Dash 2020: From Provisioning to Production",
   "description": "TODO",
+  "icon": "fa-terraform",
   "difficulty": "Intermediate",
-  "time": "60 minutes",
+  "time": "120 minutes",
+  "private": true,
+  "noindex": true,
   "details": {
     "steps": [
       {
