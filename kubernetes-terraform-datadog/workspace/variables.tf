@@ -16,16 +16,6 @@ variable "application_name" {
   default     = "beacon"
 }
 
-variable "datadog_api_key" {
-  type        = string
-  description = "Datadog API Key"
-}
-
-variable "datadog_app_key" {
-  type        = string
-  description = "Datadog Application Key"
-}
-
 variable "datadog_user_email" {
   type        = string
   description = "Email address for Datadog User"

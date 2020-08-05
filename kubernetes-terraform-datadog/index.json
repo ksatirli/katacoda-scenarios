@@ -1,14 +1,14 @@
 {
   "title": "Dash 2020: From Provisioning to Production",
-  "description": "TODO",
+  "description": "Automating Observability Principles with Terraform",
   "icon": "fa-terraform",
   "difficulty": "Intermediate",
-  "time": "120 minutes",
+  "time": "90 minutes",
   "noindex": true,
   "details": {
     "steps": [
       {
-        "title": "Step 1 - Verify Locals",
+        "title": "Step 1",
         "text": "step1.md"
       },
       {
