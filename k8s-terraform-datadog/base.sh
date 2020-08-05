@@ -36,5 +36,3 @@ git \
     --depth=1 \
     "https://github.com/ksatirli/katacoda-scenarios.git" \
     "${SCENARIO_WORKSPACE}" \
-
-
