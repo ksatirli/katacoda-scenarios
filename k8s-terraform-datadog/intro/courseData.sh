@@ -35,6 +35,9 @@ chmod 700 get_helm.sh
 ./get_helm.sh
 rm get_helm.sh
 
+# add `stable` Helm repositories
+helm repo add stable https://kubernetes-charts.storage.googleapis.com/
+
 # create user workspace
 mkdir \
   -p ${USER_WORKSPACE}
