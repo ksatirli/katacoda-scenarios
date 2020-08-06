@@ -1,17 +1,11 @@
-# Initializing Terraform
+# Provider Setup
 
-Now, let's initialize our project with Terraform.
+Version pinning virtually guarantees that your code will keep working,
+even when the Terraform Provider changes in the future.
 
-`terraform init`{{execute}}
+This makes it easier for future maintainers of this codebase to understand which version
+of the provider documentation is applicable, as new features get added down the road.
 
-Let's ensure that our Terraform code is formatted correctly with the `terraform fmt` command.
+Let's set up our Terraform providers
 
-`terraform fmt`{{execute}}
-
-That code is looking good! Now, let's validate our code to make sure we don't have any syntax issues.
-
-`terraform validate`{{execute}}
-
-Excellent! Finally, let's run `terraform plan` to see what objects we'll be deploying today.
-
-`terraform plan`{{execute}}
+**TODO: Set up Terraform providers**
