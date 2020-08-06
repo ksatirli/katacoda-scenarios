@@ -2,7 +2,7 @@
 
 Now, today’s session is going to be much more action packed than your standard workshop.
 
-We will deploy an application to a Kubernetes cluster, then we'll install the DataDog agent across
+We will deploy an application to a Kubernetes cluster, then we'll install the Datadog agent across
 the cluster, complete with live logs!
 
 Towards the end, we will be creating monitors, synthetic tests and service level objects, all from the comfort of our code editor.
