@@ -1,8 +1,6 @@
 # TODO
 
-`terraform plan -out="step4.tfplan"`{{execute}}
 
-`terraform apply "step4.tfplan"`{{execute}}
 
 ---
 
