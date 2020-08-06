@@ -42,5 +42,3 @@ git \
 && \
 cp \
   ${SCENARIO_WORKSPACE}/k8s-terraform-datadog/step1/*.tf "${USER_WORKSPACE}/"
-
-cd "${USER_WORKSPACE}"
