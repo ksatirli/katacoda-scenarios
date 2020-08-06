@@ -2,7 +2,7 @@
 
 > ⚠️ If the Katacoda Editor interface does not show the `helm_datadog.tf` file, please click the <i class="fa fa-sync"></i> Refresh button.
 
-`helm init --client-only`{{execute}}
+`helm init`{{execute}}
 
 `helm repo update`{{execute}}
 
