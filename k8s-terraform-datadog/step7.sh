@@ -4,7 +4,7 @@
 rm \
   --recursive \
   --force \
-  "/root/step7.tfplan"
+  "/root/step6.tfplan"
 
 # copy relevant files to workspace
 cp /tmp/scenario/k8s-terraform-datadog/step7/*.tf "/root/"

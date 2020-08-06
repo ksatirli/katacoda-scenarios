@@ -1,8 +1,10 @@
-# Introduction to Kubernetes
+## Introduction to Kubernetes
 
 > ⚠️ If the Katacoda Editor interface does not show the `kubernetes.tf` file, please click the <i class="fa fa-sync"></i> Refresh button.
 
 `kubectl version`{{execute}}
+
+`kubectl get nodes`{{execute}}
 
 ---
 
@@ -17,4 +19,3 @@ expected.
 
 We can check to see what nodes are in our cluster with:
 
-`kubectl get nodes`{{execute}}

@@ -1,4 +1,4 @@
-# TODO
+## TODO
 
 > ⚠️ If the Katacoda Editor interface does not show the `terraform.tf` and `variables.tf` files, please click the <i class="fa fa-sync"></i> Refresh button.
 

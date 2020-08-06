@@ -1,4 +1,4 @@
-# Installing the Datadog Helm Chart
+## Installing the Helm Chart for Datadog
 
 > ⚠️ If the Katacoda Editor interface does not show the `helm_datadog.tf` file, please click the <i class="fa fa-sync"></i> Refresh button.
 

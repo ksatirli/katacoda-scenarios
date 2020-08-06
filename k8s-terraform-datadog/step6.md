@@ -1,4 +1,4 @@
-# Deploying the beacon demo application
+## Deploying Beacon, a demo application
 
 > ⚠️ If the Katacoda Editor interface does not show the `helm.tf` and `kubernetes_beacon.tf` files, please click the <i class="fa fa-sync"></i> Refresh button.
 

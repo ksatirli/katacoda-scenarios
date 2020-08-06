@@ -1,4 +1,4 @@
-# Cleaning up
+## Cleaning up
 
 `terraform plan -destroy -out="destroy-resources.tfplan"`{{execute}}
 
