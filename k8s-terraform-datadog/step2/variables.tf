@@ -15,8 +15,3 @@ variable "application_name" {
   description = "Application Name"
   default     = "beacon"
 }
-
-variable "datadog_user_email" {
-  type        = string
-  description = "Email address for Datadog User"
-}
