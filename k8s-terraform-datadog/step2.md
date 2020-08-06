@@ -9,3 +9,7 @@ of the provider documentation is applicable, as new features get added down the 
 Let's set up our Terraform providers
 
 **TODO: Set up Terraform providers**
+
+Enter your email address
+
+`variables_datadog.tf`{{open}}
