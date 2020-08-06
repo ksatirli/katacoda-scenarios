@@ -19,3 +19,5 @@ Terraform should be at version 0.12.29 or higher, ideally.
 Does that look correct?
 
 If so, let's move to the next step!
+
+> If the Katacoda Editor interface does not show `terraform.tf`, please click the <i class="fa fa-sync"></i> Refresh button.
