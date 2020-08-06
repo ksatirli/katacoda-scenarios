@@ -8,6 +8,10 @@
 
 `kubectl get namespaces beacon`{{execute}}
 
+`kubectl get deployment --namespace=beacon`{{execute}}
+
+`kubectl get services --namespace=beacon`{{execute}}
+
 ---
 
 **TODO: Showcase the code**

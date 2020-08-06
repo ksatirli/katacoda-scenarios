@@ -1,9 +1,5 @@
 # TODO
 
-`terraform plan -out="step4.tfplan"`{{execute}}
-
-`terraform apply "step4.tfplan"`{{execute}}
-
 ---
 
 **TODO: Does this flow work here, or should we break it up?**

@@ -4,10 +4,6 @@
 
 `kubectl version`{{execute}}
 
-`terraform plan -out="step4.tfplan"`{{execute}}
-
-`terraform apply "step4.tfplan"`{{execute}}
-
 ---
 
 Kubernetes consists of pluggable parts and components that allow you to set up your

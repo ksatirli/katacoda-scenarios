@@ -55,4 +55,3 @@ resource "kubernetes_service" "beacon" {
     type = "LoadBalancer"
   }
 }
-
