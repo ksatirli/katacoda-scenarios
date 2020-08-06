@@ -15,7 +15,7 @@
       {
         "title": "Step 2",
         "text": "step2.md",
-        "code": "step2.sh"
+        "courseData": "step2.sh"
       },
       {
         "title": "Step 3",
@@ -32,37 +32,37 @@
       {
         "title": "Step 6",
         "text": "step6.md",
-        "code": "step6.sh"
+        "courseData": "step6.sh"
       },
       {
         "title": "Step 7",
         "text": "step7.md",
-        "code": "step7.sh"
+        "courseData": "step7.sh"
       },
       {
         "title": "Step 8",
         "text": "step8.md",
-        "code": "step8.sh"
+        "courseData": "step8.sh"
       },
       {
         "title": "Step 9",
         "text": "step9.md",
-        "code": "step9.sh"
+        "courseData": "step9.sh"
       },
       {
         "title": "Step 10",
         "text": "step10.md",
-        "code": "step10.sh"
+        "courseData": "step10.sh"
       },
       {
         "title": "Step 11",
         "text": "step11.md",
-        "code": "step11.sh"
+        "courseData": "step11.sh"
       },
       {
         "title": "Step 12",
         "text": "step12.md",
-        "code": "step12.sh"
+        "courseData": "step12.sh"
       },{
         "title": "Step 13",
         "text": "step13.md"
