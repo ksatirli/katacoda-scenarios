@@ -10,5 +10,4 @@ This workshop will demonstrate how easy it is to implement observability best pr
 principles across your entire Kubernetes cluster.
 
 From provisioning to production, we’ll discuss how to leverage several providers to ensure
-that new applications get created consistently, monitored reliably, and implemented
-declaratively.
+that new applications get created consistently, monitored reliably, and implemented in a declarative way.

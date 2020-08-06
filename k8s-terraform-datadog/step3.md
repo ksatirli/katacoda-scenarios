@@ -1,9 +1,9 @@
-# Initializing Terraform
+# Set
 
-Now that we have our providers all set, let's initialize our project with Terraform.
+> ⚠️ If the Katacoda Editor interface does not show the `datadog.tf` and `datadog_variables.tf` files, please click the <i class="fa fa-sync"></i> Refresh button.
 
-`terraform init`{{execute}}
+> `variables_datadog.tf`{{open}}
 
-**TODO: Explore Terraform state, what is in our working directory**
+---
 
-`tree .terraform`{{execute}}
+Enter your email address

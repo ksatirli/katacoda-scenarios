@@ -1,5 +1,5 @@
 # Cleaning up
 
-`terraform plan -destroy -out="workshop.tfplan"`{{execute}}
+`terraform plan -destroy -out="destroy-resources.tfplan"`{{execute}}
 
-`terraform apply "workshop.tfplan"`{{execute}}
+`terraform apply "destroy-resources.tfplan"`{{execute}}
