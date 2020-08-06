@@ -5,6 +5,7 @@ TERRAFORM_FILE="terraform_${TERRAFORM_VERSION}_linux_amd64.zip"
 SCENARIO_REPOSITORY="https://github.com/ksatirli/katacoda-scenarios.git"
 SCENARIO_WORKSPACE="/tmp/scenario"
 USER_WORKSPACE="/root/"
+export TF_VAR_datadog_api_key=“${DD_API_KEY}”
 
 # install `unzip`
 apt-get \
