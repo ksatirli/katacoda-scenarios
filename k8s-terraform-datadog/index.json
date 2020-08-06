@@ -69,7 +69,11 @@
       },
       {
         "title": "Step 12",
-        "text": "step12.md"
+        "text": "step12.md",
+        "code": "step12.sh"
+      },{
+        "title": "Step 13",
+        "text": "step13.md"
       }
     ],
     "intro": {
