@@ -15,12 +15,12 @@
       {
         "title": "Step 2",
         "text": "step2.md",
-        "courseData": "step2.sh"
+        "courseData": "step2/courseData.sh"
       },
       {
         "title": "Step 3",
         "text": "step3.md",
-        "courseData": "step3.sh"
+        "courseData": "step3/courseData.sh"
       },
       {
         "title": "Step 4",
@@ -29,42 +29,42 @@
       {
         "title": "Step 5",
         "text": "step5.md",
-        "courseData": "step5.sh"
+        "courseData": "step5/courseData.sh"
       },
       {
         "title": "Step 6",
         "text": "step6.md",
-        "courseData": "step6.sh"
+        "courseData": "step6/courseData.sh"
       },
       {
         "title": "Step 7",
         "text": "step7.md",
-        "courseData": "step7.sh"
+        "courseData": "step7/courseData.sh"
       },
       {
         "title": "Step 8",
         "text": "step8.md",
-        "courseData": "step8.sh"
+        "courseData": "step8/courseData.sh"
       },
       {
         "title": "Step 9",
         "text": "step9.md",
-        "courseData": "step9.sh"
+        "courseData": "step9/courseData.sh"
       },
       {
         "title": "Step 10",
         "text": "step10.md",
-        "courseData": "step10.sh"
+        "courseData": "step10/courseData.sh"
       },
       {
         "title": "Step 11",
         "text": "step11.md",
-        "courseData": "step11.sh"
+        "courseData": "step11/courseData.sh"
       },
       {
         "title": "Step 12",
         "text": "step12.md",
-        "courseData": "step12.sh"
+        "courseData": "step12/courseData.sh"
       },{
         "title": "Step 13",
         "text": "step13.md"
