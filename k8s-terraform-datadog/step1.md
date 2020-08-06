@@ -1,13 +1,22 @@
+# Introduction
+
+Now, today’s session is going to be much more action packed than your standard workshop.
+
+We will deploy an application
+
+What we want to do is take you on a guided walk from provisioning a GKE cluster, to integrating your GCP account with Datadog.
+
+Towards the end, we will be creating monitors, synthetic tests and service level objects, all from the comfort of our code editor.
+
 # Verify local installations
+
+Let's test our local workspace to ensure we have all the right tools for today's workshop.
+
+First, let's confirm that we have a valid Terraform executable in our workspace.
+Terraform should be at version 0.12.29 or higher, ideally.
 
 `terraform version`{{execute}}
 
-Copy the files for the first step:
+Does that look correct?
 
-Initialize the project:
-
-`terraform init`{{execute}}
-
-Apply the configuration. You'll be asked to confirm by typing "yes", and then the name of an animal will be printed as an output.
-
-`terraform apply`{{execute}}
+If so, let's move to the next step!
