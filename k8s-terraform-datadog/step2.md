@@ -1,4 +1,4 @@
-# Set up Terraform Providers
+# TODO
 
 > ⚠️ If the Katacoda Editor interface does not show the `terraform.tf` and `variables.tf` files, please click the <i class="fa fa-sync"></i> Refresh button.
 
@@ -7,6 +7,8 @@
 `tree .terraform`{{execute}}
 
 ---
+
+Set up Terraform Providers
 
 Version pinning virtually guarantees that your code will keep working, even when the Terraform Provider changes in the future.
 

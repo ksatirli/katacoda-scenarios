@@ -9,8 +9,7 @@
     "steps": [
       {
         "title": "Step 1",
-        "text": "step1.md",
-        "code": "step1.sh"
+        "text": "step1.md"
       },
       {
         "title": "Step 2",
@@ -19,7 +18,8 @@
       },
       {
         "title": "Step 3",
-        "text": "step3.md"
+        "text": "step3.md",
+        "courseData": "step3.sh"
       },
       {
         "title": "Step 4",

@@ -1,10 +1,14 @@
-# Terraform lifecycle
+# TODO
 
 `terraform plan -out="step4.tfplan"`{{execute}}
+
+`terraform apply "step4.tfplan"`{{execute}}
 
 ---
 
 **TODO: Does this flow work here, or should we break it up?**
+
+Terraform lifecycle
 
 Let's ensure that our Terraform code is formatted correctly with the `terraform fmt` command.
 

@@ -1,8 +1,8 @@
 # Introduction
 
-> ⚠️ If the Katacoda Terminal interface does not respond with the Terraform version immediately, wait a bit, while the `terraform` binary is downloaded.
-
 `terraform version`{{execute}}
+
+> ⚠️ If the Katacoda Terminal interface does not respond with the Terraform version immediately, wait a bit, while the `terraform` binary is downloaded.
 
 ---
 
