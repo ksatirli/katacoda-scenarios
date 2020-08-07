@@ -2,7 +2,7 @@
 
 TERRAFORM_VERSION="0.12.29"
 TERRAFORM_FILE="terraform_${TERRAFORM_VERSION}_linux_amd64.zip"
-HELM_FILE="get-helm-3.sh"
+HELM_FILE=".helm-installer.sh"
 SCENARIO_REPOSITORY="https://github.com/ksatirli/katacoda-scenarios.git"
 SCENARIO_WORKSPACE="/tmp/scenario"
 USER_WORKSPACE="/root/"
@@ -30,24 +30,24 @@ rm \
   --force \
   ${TERRAFORM_FILE}
 
-# install Helm
-curl \
-  --fail \
-  --location \
-  --show-error \
-  --output "${HELM_FILE}" \
-  --silent \
-  "https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3" \
-&& \
-chmod 700 "${HELM_FILE}" \
-&& \
-./${HELM_FILE} \
-
-# clean up Helm installer
-rm \
-  --recursive \
-  --force \
-  ${HELM_FILE}
+## install Helm
+#curl \
+#  --fail \
+#  --location \
+#  --show-error \
+#  --output "${HELM_FILE}" \
+#  --silent \
+#  "https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3" \
+#&& \
+#chmod 700 "${HELM_FILE}" \
+#&& \
+#./${HELM_FILE} \
+#
+## clean up Helm installer
+#rm \
+#  --recursive \
+#  --force \
+#  ${HELM_FILE}
 
 # initialize Helm
 helm \
