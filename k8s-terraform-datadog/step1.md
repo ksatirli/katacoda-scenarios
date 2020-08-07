@@ -26,4 +26,8 @@ Then we want to make sure that we have the correct version of Helm installed. To
 
 Do those two versions look correct?
 
-If so, let's move to the next step!
+If so, let's move to the next step: checking if the `datadog` Chart is available:
+
+`helm search datadog`{{execute}}
+
+The `datadog/datadog` Chart should be at version `2.4.4` or higher, ideally

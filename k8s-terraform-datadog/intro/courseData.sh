@@ -53,12 +53,12 @@ rm \
 helm \
   init
 
-# add `stable` Helm Charts
-helm \
-  repo \
-    add "stable" "https://kubernetes-charts.storage.googleapis.com/"
+## add `stable` Helm Charts (this provides `stable/datadog:2.3.42`)
+#helm \
+#  repo \
+#    add "stable" "https://kubernetes-charts.storage.googleapis.com/"
 
-# add `datadog` Helm Charts
+# add `datadog` Helm Charts (this provides `datadog/datadog:2.4.5`)
 helm \
   repo \
     add "datadog" "https://helm.datadoghq.com/"
