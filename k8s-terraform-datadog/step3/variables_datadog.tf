@@ -9,3 +9,9 @@ variable "datadog_api_key" {
   description = "Datadog API Key"
   # the value for this variable is available via the Katacoda environment
 }
+
+variable "datadog_app_key" {
+  type        = string
+  description = "Datadog App Key"
+  # the value for this variable is available via the Katacoda environment
+}
