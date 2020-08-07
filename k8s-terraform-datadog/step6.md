@@ -37,7 +37,7 @@ And we added a service so that we can expose our beacon application to the world
 
 `[[HOST_IP]]`{{execute}}
 
-`[[HOST2_IP]]`
+`[[HOST1_IP]]`
 
 `[[HOST2_IP]]`{{execute}}
 
@@ -46,3 +46,11 @@ And we added a service so that we can expose our beacon application to the world
 `https://[[HOST_SUBDOMAIN]]-[[KATACODA_HOST]].environments.katacoda.com/`
 
 `[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].[[KATACODA_DOMAIN]]`
+
+---
+
+`[[HOST1_SUBDOMAIN]]-80-[[KATACODA_HOST]].[[KATACODA_DOMAIN]]`
+
+`[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST1]].[[KATACODA_DOMAIN]]`
+
+`[[NODE1_SUBDOMAIN]]-80-[[KATACODA_HOST]].[[KATACODA_DOMAIN]]`
