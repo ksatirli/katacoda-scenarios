@@ -9,9 +9,9 @@ Now, I’m not sure if you noticed, but we have a pretty advanced app that we ju
 We want to ensure that we’re monitoring beacon as soon as we can after the application has been
 deployed, so that we can avoid any angry calls from our users.
 
-For this, we will want to use the Helm provider - this allows Terraform to interface with the system and deploy charts.
+For this, we will want to use the Helm provider, which allows Terraform to interface with the system and deploy charts.
 
-Let's open the Terraform file and see how we're setting up the Datadog agent chart before we deploy it:
+Let's open the Terraform file and see how we're setting up the Datadog Agent chart before we deploy it:
 
 > `helm_datadog.tf`{{open}}
 
