@@ -30,4 +30,4 @@ If so, let's move to the next step: checking if the `datadog` Chart is available
 
 `helm search datadog`{{execute}}
 
-The `datadog/datadog` Chart should be at version `2.4.4` or higher, ideally
+The `datadog/datadog` Chart should be at chart version `2.4.4` or higher, ideally
