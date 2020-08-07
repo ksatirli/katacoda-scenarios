@@ -18,4 +18,14 @@ resource "helm_release" "datadog_agent" {
     name  = "datadog.logs.containerCollectAll"
     value = true
   }
+
+  set {
+    name  = "datadog.leaderElection"
+    value = true
+  }
+
+  set {
+    name  = "datadog.collectEvents"
+    value = true
+  }
 }
