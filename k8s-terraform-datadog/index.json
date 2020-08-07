@@ -81,7 +81,7 @@
   "environment": {
     "dashboards": [
       {
-        "name": "Beacon (available after Step 6 has completed)",
+        "name": "Beacon (after Step 6)",
         "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"
       }
     ],
