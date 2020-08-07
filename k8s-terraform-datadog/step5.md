@@ -8,7 +8,7 @@ Kubernetes consists of pluggable parts and components that allow you to set up y
 cluster the way you would like.
 
 Today, we'll work with several Kubernetes components as we stand up a demo application and
-instrument our cluster using a Helm chart to set up the Datadog agent.
+instrument our cluster using a Helm chart to set up the Datadog Agent.
 
 To confirm that we're set up to work with Kubernetes, let's confirm all our tooling is working as
 expected. We should be able to see two versions listed, one for the `kubectl` client, and another for the `kubernetes` cluster.

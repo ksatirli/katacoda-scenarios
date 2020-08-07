@@ -14,3 +14,4 @@ That code is looking good! Now, let's validate our code to make sure we don't ha
 
 Excellent! Finally, let's run `terraform plan` to see what objects we'll be deploying today.
 
+`terraform plan`{{execute}}
