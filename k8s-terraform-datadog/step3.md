@@ -1,6 +1,6 @@
 ## Preparing Datadog Variables
 
-> ⚠️ If the Katacoda Editor interface does not show the `datadog.tf` and `datadog_variables.tf` files, please click the <i class="fa fa-sync"></i> Refresh button.
+> ⚠️ If the Katacoda Editor interface does not show the `datadog.tf` and `variables_datadog.tf` files, please click the <i class="fa fa-sync"></i> Refresh button.
 
 ---
 
