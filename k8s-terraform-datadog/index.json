@@ -79,7 +79,15 @@
     }
   },
   "environment": {
+    "dashboards": [
+      {
+        "name": "Beacon (available after Step 6 has completed)",
+        "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"
+      }
+    ],
+    "hideintro": false,
     "hideHiddenFiles": true,
+    "showdashboard": true,
     "uilayout": "editor-terminal",
     "uieditorpath": "/root/"
   },
