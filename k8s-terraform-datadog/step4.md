@@ -2,10 +2,6 @@
 
 ---
 
-**TODO: Does this flow work here, or should we break it up?**
-
-Needs to be moved to a more sensible spot (if at all)
-
 Terraform lifecycle
 
 Let's ensure that our Terraform code is formatted correctly with the `terraform fmt` command.
