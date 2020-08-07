@@ -1,8 +1,6 @@
-## TODO
+## Terraform Lifecycle
 
 ---
-
-Terraform lifecycle
 
 Let's ensure that our Terraform code is formatted correctly with the `terraform fmt` command.
 
