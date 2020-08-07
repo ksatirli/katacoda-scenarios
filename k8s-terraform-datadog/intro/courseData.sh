@@ -63,6 +63,11 @@ helm \
   repo \
     add "datadog" "https://helm.datadoghq.com/"
 
+# update Helm Charts
+helm \
+  repo \
+    update
+
 # create user workspace
 mkdir \
   -p ${USER_WORKSPACE}

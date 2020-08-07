@@ -20,7 +20,7 @@ If the plan looks good, we can the apply it!
 
 `terraform apply "step6.tfplan"`{{execute}}
 
-Excellent! Let's check to see what we created
+Excellent! Let's check to see what we created:
 
 `kubectl get namespaces`{{execute}}
 
