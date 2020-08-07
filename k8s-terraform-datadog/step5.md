@@ -2,10 +2,6 @@
 
 > ⚠️ If the Katacoda Editor interface does not show the `kubernetes.tf` file, please click the <i class="fa fa-sync"></i> Refresh button.
 
-`kubectl version`{{execute}}
-
-`kubectl get nodes`{{execute}}
-
 ---
 
 Kubernetes consists of pluggable parts and components that allow you to set up your
@@ -15,7 +11,10 @@ Today, we'll work with several Kubernetes components as we stand up a demo appli
 instrument our cluster using a Helm chart to set up the Datadog agent.
 
 To confirm that we're set up to work with Kubernetes, let's confirm all our tooling is working as
-expected.
+expected. We should be able to see two versions listed, one for the `kubectl` client, and another for the `kubernetes` cluster.
+
+`kubectl version`{{execute}}
 
 We can check to see what nodes are in our cluster with:
 
+`kubectl get nodes`{{execute}}
