@@ -29,4 +29,14 @@ resource "helm_release" "datadog_agent" {
     name  = "datadog.collectEvents"
     value = true
   }
+
+  set {
+    name  = "clusterAgent.enabled"
+    value = true
+  }
+
+  set {
+    name  = "clusterAgent.metricsProvider.enabled"
+    value = true
+  }
 }
