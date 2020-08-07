@@ -2,7 +2,7 @@
 
 TERRAFORM_VERSION="0.12.29"
 TERRAFORM_FILE="terraform_${TERRAFORM_VERSION}_linux_amd64.zip"
-HELM_FILE="${HELM_FILE}"
+HELM_FILE="get-helm-3.sh"
 SCENARIO_REPOSITORY="https://github.com/ksatirli/katacoda-scenarios.git"
 SCENARIO_WORKSPACE="/tmp/scenario"
 USER_WORKSPACE="/root/"
@@ -47,7 +47,11 @@ chmod 700 "${HELM_FILE}" \
 rm \
   --recursive \
   --force \
-  ${TERRAFORM_FILE}
+  ${HELM_FILE}
+
+# initialize Helm
+helm \
+  init
 
 # add `stable` Helm Charts
 helm \
