@@ -8,7 +8,7 @@ Version pinning virtually guarantees that your code will keep working, even when
 
 This makes it easier for future maintainers of this codebase to understand which version of the provider documentation is applicable, as new features get added down the road.
 
-Let's look at the Terraform providers that we're setting up today
+Let's look at the Terraform providers we are setting up today:
 
 > `terraform.tf`{{open}}
 
