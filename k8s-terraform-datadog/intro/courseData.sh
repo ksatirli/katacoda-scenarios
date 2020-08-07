@@ -2,6 +2,7 @@
 
 TERRAFORM_VERSION="0.12.29"
 TERRAFORM_FILE="terraform_${TERRAFORM_VERSION}_linux_amd64.zip"
+HELM_FILE="${HELM_FILE}"
 SCENARIO_REPOSITORY="https://github.com/ksatirli/katacoda-scenarios.git"
 SCENARIO_WORKSPACE="/tmp/scenario"
 USER_WORKSPACE="/root/"
@@ -24,6 +25,25 @@ unzip \
   -d "/usr/local/bin/"
 
 # clean up
+rm \
+  --recursive \
+  --force \
+  ${TERRAFORM_FILE}
+
+# install Helm
+curl \
+  --fail \
+  --location \
+  --show-error \
+  --output "${HELM_FILE}" \
+  --silent \
+  "https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3" \
+&& \
+chmod 700 "${HELM_FILE}" \
+&& \
+./${HELM_FILE} \
+
+# clean up Helm installer
 rm \
   --recursive \
   --force \
@@ -52,4 +72,3 @@ git \
 && \
 cp \
   ${SCENARIO_WORKSPACE}/k8s-terraform-datadog/step1/*.tf "${USER_WORKSPACE}/"
-
