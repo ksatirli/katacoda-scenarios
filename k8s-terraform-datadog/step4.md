@@ -13,4 +13,3 @@ That code is looking good! Now, let's validate our code to make sure we don't ha
 `terraform validate`{{execute}}
 
 Excellent! Finally, let's run `terraform plan` to see what objects we'll be deploying today.
-

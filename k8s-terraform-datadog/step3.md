@@ -13,3 +13,5 @@ Let's open up the variables file that contains all our Datadog information:
 
 Do you see that `datadog_user_email` block of code? Let's update that so it no longer says
 `<CHANGE ME>` and instead, let's put in an email address.
+
+This email address will be used to create a second user in your Datadog Organization.
