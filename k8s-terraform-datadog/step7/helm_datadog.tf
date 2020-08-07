@@ -1,8 +1,9 @@
 resource "helm_release" "datadog_agent" {
-  name      = "datadog-agent"
-  chart     = "stable/datadog"
-  version   = "2.3.41"
-  namespace = kubernetes_namespace.beacon.id
+  name       = "datadog-agent"
+  chart      = "datadog/datadog"
+  repository = "https://helm.datadoghq.com"
+  version    = "2.3.41"
+  namespace  = kubernetes_namespace.beacon.id
 
   set_sensitive {
     name  = "datadog.apiKey"
@@ -16,6 +17,16 @@ resource "helm_release" "datadog_agent" {
 
   set {
     name  = "datadog.logs.containerCollectAll"
+    value = true
+  }
+
+  set {
+    name  = "datadog.leaderElection"
+    value = true
+  }
+
+  set {
+    name  = "datadog.collectEvents"
     value = true
   }
 }
