@@ -32,4 +32,4 @@ And we added a service so that we can expose our beacon application to the world
 
 `kubectl get services --namespace=beacon`{{execute}}
 
-`https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/`
+> ⚠️ To view the service in action, click the "Beacon (after Step 6)" tab in the Terminal interface of Katacoda. or go to [this link](https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/) directly.

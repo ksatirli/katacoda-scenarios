@@ -20,7 +20,7 @@ Terraform should be at version 0.12.29 or higher, ideally.
 
 `terraform version`{{execute}}
 
-Then we want to make sure that we have the correct version of Helm installed. Today we'll be using version 3 of Helm.
+Then we want to make sure that we have the correct version of Helm installed. Today we'll be using version `2.13` of Helm.
 
 `helm version`{{execute}}
 

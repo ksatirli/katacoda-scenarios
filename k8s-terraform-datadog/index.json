@@ -82,7 +82,7 @@
     "dashboards": [
       {
         "name": "Beacon (after Step 6)",
-        "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"
+        "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/"
       }
     ],
     "hideintro": false,
