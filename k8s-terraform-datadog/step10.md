@@ -4,9 +4,9 @@
 
 ---
 
-Let's create a Service Level Objective(SLO) using our synthetics check we just set up.
+Let's create a Service Level Objective (SLO) using our synthetics check we just set up.
 
-Please check out the Terrform code for the Datadog SLO:
+Please check out the Terraform code for the Datadog SLO:
 
 > `datadog_slo.tf`{{open}}
 
