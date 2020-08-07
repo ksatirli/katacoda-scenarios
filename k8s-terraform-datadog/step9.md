@@ -15,7 +15,7 @@ Then if the application doesn’t respond with a 200 OK response, we can be aler
 Do you see that `url` attribute in the `datadog_synthetics_test` block of code? Let's update that so it no longer says
 `<CHANGE ME>` and instead, let's put in the public endpoint for the `beacon` application:
 
-`https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/`
+`https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/`{{copy}}
 
 Next, let's plan and apply before moving onto the next step.
 

@@ -8,7 +8,7 @@ Let's deploy an application named "beacon" that will run on Kubernetes. Beacon i
 
 Let's list out the Kubernetes namespaces we currently have
 
-`kubectl get namespaces`{{execute}}
+`kubectl get namespaces --namespace=beacon`{{execute}}
 
 You can see that there are a few, but there's really not a great place to put our beacon application. Let's add a new namespace called, "beacon" using Terraform.
 
@@ -22,7 +22,7 @@ If the plan looks good, we can the apply it!
 
 Excellent! Let's check to see what we created:
 
-`kubectl get namespaces`{{execute}}
+`kubectl get namespaces --namespace=beacon`{{execute}}
 
 We also added the beacon application with a Kubernetes deployment:
 
