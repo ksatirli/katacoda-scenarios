@@ -19,4 +19,4 @@ Now that we have our providers all set, let's initialize our project with Terraf
 After downloading the Terraform providers with the `terraform init` command, you'll be able to
 inspect the versions that were downloaded, and the machine architecture you're using (ex. `linux_amd64`).
 
-`tree .terraform`{{execute}
+`tree .terraform`{{execute}}
