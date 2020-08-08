@@ -1,11 +1,15 @@
-## Creating an (extra) User
+## Creating An Extra Datadog User
 
 > ⚠️ If the Katacoda Editor interface does not show the `datadog_users.tf` file, please click the <i class="fa fa-sync"></i> Refresh button.
 
-`terraform plan -out="step11.tfplan"`{{execute}}
-
-`terraform apply "step11.tfplan"`{{execute}}
-
 ---
 
-**TODO: Showcase the code**
+If you would like to create an additional Datadog user, you can add them in the file we edited earlier:
+
+> `datadog_users.tf`{{open}}
+
+Once you have any user(s) added, let's run the following when you're ready:
+
+`terraform plan -out="step12.tfplan"`{{execute}}
+
+`terraform apply "step12.tfplan"`{{execute}}
