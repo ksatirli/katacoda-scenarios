@@ -5,14 +5,6 @@ resource "datadog_dashboard" "beacon" {
   is_read_only = true
 
   widget {
-    alert_graph_definition {
-      alert_id = datadog_monitor.beacon.id
-      time = {
-        "live_span" = "15m"
-      }
-      title    = "Service"
-      viz_type = "timeseries"
-    }
     service_level_objective_definition {
       show_error_budget = true
       slo_id            = datadog_service_level_objective.beacon.id
@@ -20,6 +12,7 @@ resource "datadog_dashboard" "beacon" {
         "7d",
         "30d",
       ]
+      title     = "Beacon SLO"
       view_mode = "overall"
       view_type = "detail"
     }
@@ -34,7 +27,7 @@ resource "datadog_dashboard" "beacon" {
 
       request {
         fill {
-          q = "avg:process.stat.container.cpu.total_pct{*} by {host}"
+          q = "avg:process.stat.container.cpu.total_pct{image_name:onlydole/beacon} by {host}"
         }
       }
 
@@ -54,7 +47,7 @@ resource "datadog_dashboard" "beacon" {
 
       request {
         display_type = "line"
-        q            = "top(avg:kubernetes.cpu.system.total{kube_namespace:${kubernetes_namespace.beacon.metadata[0].name}} by {pod_name}, 10, 'mean', 'desc')"
+        q            = "top(avg:docker.cpu.usage{image_name:onlydole/beacon} by {docker_image,container_id}, 10, 'mean', 'desc')"
 
         style {
           line_type  = "solid"
@@ -76,7 +69,7 @@ resource "datadog_dashboard" "beacon" {
 
     alert_graph_definition {
       alert_id = datadog_monitor.beacon.id
-      title    = "Alert: Kubernetes Node Health"
+      title    = "Kubernetes Node CPU"
       viz_type = "timeseries"
     }
   }
@@ -106,7 +99,7 @@ resource "datadog_dashboard" "beacon" {
       title       = "Memory Utilization"
       request {
         display_type = "line"
-        q            = "top(avg:kubernetes.memory.usage{kube_namespace:${kubernetes_namespace.beacon.metadata[0].name}} by {pod_name}, 10, 'mean', 'desc')"
+        q            = "top(avg:docker.mem.in_use{image_name:onlydole/beacon} by {container_name}, 10, 'mean', 'desc')"
 
         style {
           line_type  = "solid"

@@ -39,4 +39,9 @@ resource "helm_release" "datadog_agent" {
     name  = "clusterAgent.metricsProvider.enabled"
     value = true
   }
+
+  set {
+    name  = "datadog.systemProbe.enabled"
+    value = true
+  }
 }
