@@ -6,8 +6,7 @@
   "time": "90 minutes",
   "noindex": true,
   "details": {
-    "steps": [
-      {
+    "steps": [{
         "title": "Step 1",
         "text": "step1.md",
         "code": "step1/code.sh"
@@ -65,10 +64,14 @@
         "title": "Step 12",
         "text": "step12.md",
         "courseData": "step12/courseData.sh"
-      },{
+      }, {
         "title": "Step 13",
         "text": "step13.md",
         "courseData": "step13/courseData.sh"
+      }, {
+        "title": "Step 14",
+        "text": "step14.md",
+        "courseData": "step14/courseData.sh"
       }
     ],
     "intro": {
@@ -80,12 +83,10 @@
     }
   },
   "environment": {
-    "dashboards": [
-      {
-        "name": "Beacon (after Step 6)",
-        "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/"
-      }
-    ],
+    "dashboards": [{
+      "name": "Beacon (after Step 6)",
+      "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/"
+    }],
     "hideintro": false,
     "hideHiddenFiles": true,
     "showdashboard": true,
