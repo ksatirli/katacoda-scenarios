@@ -1,4 +1,4 @@
-## Creating a Synthetics Check
+## Creating a Synthetics Test
 
 > ⚠️ If the Katacoda Editor interface does not show the `datadog_synthetics.tf` file, please click the <i class="fa fa-sync"></i> Refresh button.
 
@@ -22,3 +22,5 @@ Next, let's plan and apply before moving onto the next step.
 `terraform plan -out="step9.tfplan"`{{execute}}
 
 `terraform apply "step9.tfplan"`{{execute}}
+
+Let's have a look at this in the [Datadog interface](https://app.datadoghq.com/synthetics/list).

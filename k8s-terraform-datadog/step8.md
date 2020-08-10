@@ -15,3 +15,5 @@ It's that time again! Let's plan and apply accordingly.
 `terraform plan -out="step8.tfplan"`{{execute}}
 
 `terraform apply "step8.tfplan"`{{execute}}
+
+Let's have a look at this in the [Datadog interface](https://app.datadoghq.com/monitors/manage).
