@@ -23,3 +23,7 @@ Finally, let's run this execution plan to remove our infrastructure
 resources:
 
 `terraform apply "destroy-resources.tfplan"`{{execute}}
+
+If you also want to remove this Katacoda environment, you can run the following command to shut it down:
+
+`poweroff`{{execute}}
