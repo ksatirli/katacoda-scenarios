@@ -4,8 +4,6 @@
 
 ---
 
-Terraform allows for a way to generate outputs afte
-
 Sometimes, you might need to use an output value like a DNS zone, or load balancer address
 
 This is especially helpful when you start using Terraform modules (which is a bit beyond the scope of this talk)
