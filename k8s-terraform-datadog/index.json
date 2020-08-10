@@ -67,7 +67,8 @@
         "courseData": "step12/courseData.sh"
       },{
         "title": "Step 13",
-        "text": "step13.md"
+        "text": "step13.md",
+        "courseData": "step13/courseData.sh"
       }
     ],
     "intro": {
