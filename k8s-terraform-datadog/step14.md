@@ -3,7 +3,7 @@
 ---
 
 Please note that this step will remove the Kubernetes resources
-(namespace, deploymen,t and service), as well as any resources you
+(namespace, deployment, and service), as well as any resources you
 created within Datadog as part of this workshop. This includes a monitor,
 synthetic test, SLO, dashboard and a user).
 
