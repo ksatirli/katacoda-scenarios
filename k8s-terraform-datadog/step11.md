@@ -20,3 +20,5 @@ Please plan and apply, accordingly.
 `terraform plan -out="step11.tfplan"`{{execute}}
 
 `terraform apply "step11.tfplan"`{{execute}}
+
+Let's have a look at this in the list of [Datadog Dashboards](https://app.datadoghq.com/dashboard/lists/preset/1).

@@ -17,3 +17,5 @@ Please plan and apply, accordingly.
 `terraform plan -out="step10.tfplan"`{{execute}}
 
 `terraform apply "step10.tfplan"`{{execute}}
+
+Let's have a look at this in the list of [Datadog SLOs](https://app.datadoghq.com/slo).

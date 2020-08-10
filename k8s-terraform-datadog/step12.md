@@ -13,3 +13,5 @@ Once you have any user(s) added, let's run the following when you're ready:
 `terraform plan -out="step12.tfplan"`{{execute}}
 
 `terraform apply "step12.tfplan"`{{execute}}
+
+Let's have a look at this in the list of [Datadog Users](https://app.datadoghq.com/access/users).

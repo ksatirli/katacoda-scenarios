@@ -16,4 +16,4 @@ It's that time again! Let's plan and apply accordingly.
 
 `terraform apply "step8.tfplan"`{{execute}}
 
-Let's have a look at this in the [Datadog interface](https://app.datadoghq.com/monitors/manage).
+Let's have a look at this in the list of [Datadog Monitors](https://app.datadoghq.com/monitors/manage).

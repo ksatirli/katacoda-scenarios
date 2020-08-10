@@ -23,4 +23,4 @@ Next, let's plan and apply before moving onto the next step.
 
 `terraform apply "step9.tfplan"`{{execute}}
 
-Let's have a look at this in the [Datadog interface](https://app.datadoghq.com/synthetics/list).
+Let's have a look at this in the list of [Datadog Synthetic Tests](https://app.datadoghq.com/synthetics/list).
