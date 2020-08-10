@@ -10,7 +10,11 @@ This is especially helpful when you start using Terraform modules (which is a bi
 
 Conveniently for us, you can use the "terraform output" command. We have defined an output for the Datadog Beacon Dashboard URL.
 
-Please run this command to get your specific Datadog dashboard URL:
+To make Outputs available through Terraform, we first need to apply:
+
+`terraform apply`{{execute}}
+
+Next, please run this command to get your specific Datadog dashboard URL:
 
 `terraform output`{{execute}}
 
