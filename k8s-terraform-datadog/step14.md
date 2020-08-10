@@ -17,12 +17,12 @@ deprovisioning our resources and infrastructure.
 
 Let's start by creating an execution plan of _what_ we want to remove:
 
-`terraform plan -destroy -out="destroy-resources.tfplan"`{{execute}}
+`terraform plan -destroy -out="destroy.tfplan"`{{execute}}
 
 Finally, let's run this execution plan to remove our infrastructure
 resources:
 
-`terraform apply "destroy-resources.tfplan"`{{execute}}
+`terraform apply "destroy.tfplan"`{{execute}}
 
 If you also want to remove this Katacoda environment, you can run the following command to shut it down:
 
