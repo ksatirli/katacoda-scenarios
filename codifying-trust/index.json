@@ -27,13 +27,13 @@
   "environment": {
     "dashboards": [],
     "exclusionPatterns": [
-      "./.bashrc",
-      "./.cache/",
-      "./.hushlogin",
-      "./.profile",
-      "./.ssh/",
-      "./.terraform.d/",
-      "./.vimrc"
+      ".bashrc",
+      ".cache/",
+      ".hushlogin",
+      ".profile",
+      ".ssh/",
+      ".terraform.d/",
+      ".vimrc"
     ],
     "hideintro": false,
     "hideHiddenFiles": false,
