@@ -1,7 +1,7 @@
 # see https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/string
 resource "random_string" "prefix" {
   # enable this resource when the `enable_random_prefix` is set to `true`
-  count   = var.enable_random_suffix ? 1 : 0
+  count = var.enable_random_suffix ? 1 : 0
 
   length  = 4
   special = false
