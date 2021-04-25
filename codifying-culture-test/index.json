@@ -8,7 +8,7 @@
   "details": {
     "steps": [{
         "title": "Step 1",
-        "text": "step1.md",
+        "text": "step1/text.md",
         "code": "step1/code.sh"
       }
     ],
