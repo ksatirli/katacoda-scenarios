@@ -42,7 +42,7 @@ We have access to variables and resources we can use to change this.
 
 > ❓ How would you make this name more unique?
 
-Consider using `random_pet.image` and `var.environment`.
+Consider using `random_pet.container` and `var.environment`.
 
 ---
 
@@ -55,11 +55,12 @@ The output should look like this:
 ```text
 Outputs:
 
-container_ip = "172.18.0.2"
-environment  = "tst"
+container_name = qgR-strongly-caffeinated-giraffe-tst-beacon
+container_ip   = "172.18.0.2"
+environment    = "tst"
 ```
 
-Note that the IP address may be different for you.
+Note that the `container_name` and `container_ip` values will be different for you.
 
 ### (Optional) Query the output of the Docker Container
 

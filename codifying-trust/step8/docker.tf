@@ -16,6 +16,11 @@ resource "docker_container" "beacon" {
   image = docker_image.beacon.name
 }
 
+output "container_name" {
+  description = "Container Name for `beacon`"
+  value       = docker_container.beacon.name
+}
+
 output "container_ip" {
   description = "Container IP for `beacon`"
   value       = docker_container.beacon.ip_address

@@ -12,7 +12,7 @@ locals {
   pet_name_prefix = var.enable_random_suffix ? random_string.prefix[0].result : null
 }
 
-resource "random_pet" "image" {
+resource "random_pet" "container" {
   length    = var.pet_name_length
   prefix    = local.pet_name_prefix
   separator = "-"
