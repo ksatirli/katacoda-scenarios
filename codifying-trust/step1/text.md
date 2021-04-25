@@ -8,7 +8,7 @@ First, let's confirm that we have a valid Terraform executable in our workspace.
 
 `terraform version`{{execute}}
 
-❓ Does this version look correct?
+> ❓ Does this version look correct?
 
 If so, change into the Workspace directory:
 

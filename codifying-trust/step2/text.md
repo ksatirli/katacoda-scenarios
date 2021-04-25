@@ -35,7 +35,7 @@ Terraform code can be pinned to a specific version using the `required_version` 
 
 ### Initialize Terraform
 
-Now we have our providers all set, let's initialize our project with Terraform.
+Let's initialize our project with Terraform.
 
 `terraform init`{{execute}}
 

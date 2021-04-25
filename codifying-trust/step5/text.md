@@ -49,6 +49,6 @@ After completing this task, execute Terraform again:
 
 `terraform apply -auto-approve`{{execute}}
 
-❓ How would you fix the error?
+> ❓ How would you fix the error?
 
 When you are ready, click _CONTINUE_ to go to the next step.

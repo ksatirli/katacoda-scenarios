@@ -1,37 +1,32 @@
-Formatting and Validation are important (and fast!) tools to make your code quality better.
+As projects evolve, you sometimes need to add extra code and other resources.
 
-In this step, we will carry out two tasks:
+In this step, we will carry out one tasks:
 
-1. Format code
-2. Validate code
+1. Add an extra provider
 
 ---
 
-### Format code
+### Add an extra provider
 
-The `terraform fmt` command rewrites configuration files to a canonical format and style.
+For the next part, we need the Docker Provider for Terraform.
+
+Start by (re-)opening `terraform.tf`{{open}} and expand the `terraform` stanza:
+
+<pre class="file" data-target="clipboard">
+    # see https://registry.terraform.io/providers/kreuzwerker/docker/2.11.0
+    docker = {
+      source  = "kreuzwerker/docker"
+      version = "2.11.0"
+    }
+</pre>
+
+Re-initialize Terraform with the `init` command:
+
+`terraform init`{{execute}}
+
+Then, reformat the code using the `fmt` command:
 
 `terraform fmt`{{execute}}
-
-> ⚠️ We are executing `fmt` manually. Consider running this step automatically when you use Terraform.
-
-The output should look like this:
-
-```text
-outputs.tf
-terraform.tf
-variables.tf
-```
-
-When you have executed the command, close and re-open the `variables.tf`{{open}} file to see how it changed.
-
-### Validate code
-
-The `terraform validate` command validates the configuration files in a directory.
-
-`terraform validate`{{execute}}
-
-> ⚠️ We are executing `validate` manually. Consider running this step automatically when you use Terraform.
 
 ---
 
