@@ -43,6 +43,6 @@ git \
     "${SCENARIO_WORKSPACE}" \
 && \
 cp \
-  ${SCENARIO_WORKSPACE}/k8s-terraform-datadog/step1/*.tf "${USER_WORKSPACE}/"
+  ${SCENARIO_WORKSPACE}/codifying-culture/step1/*.tf "${USER_WORKSPACE}/"
 
 clear
