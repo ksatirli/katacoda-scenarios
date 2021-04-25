@@ -24,7 +24,8 @@
     "dashboards": [],
     "hideintro": false,
     "hideHiddenFiles": true,
-    "showdashboard": true,
+    "showdashboard": false,
+    "showide": true,
     "uilayout": "editor-terminal",
     "uieditorpath": "/root/"
   },
