@@ -2,7 +2,7 @@
 
 Welcome! Today's session is going to be much more action packed than your standard workshop.
 
-If you have questions at any point, please use Zoom's "✋ Raise Hand" feature.
+> ⚠️ If you have questions at any point, please use Zoom's "✋ Raise Hand" feature.
 
 # Verify local installations
 
@@ -12,4 +12,4 @@ First, let's confirm that we have a valid Terraform executable in our workspace.
 
 `terraform version`{{execute}}
 
-Does this version look correct?
+❓ Does this version look correct?
