@@ -26,9 +26,7 @@ The latest version of the `local` provider is `2.1.0`{{copy}}.
 
 Providers can be pinned to a specific version using the `version` attribute:
 
-<pre class="file" data-target="clipboard">
-      version = "2.1.0"
-</pre>
+<pre class="file" data-target="clipboard">      version = "2.1.0"</pre>
 
 ### Add a version requirement for Terraform
 
@@ -36,9 +34,7 @@ The latest version of Terraform is `0.15.0`{{copy}}.
 
 Terraform code can be pinned to a specific version using the `required_version` attribute:
 
-<pre class="file" data-target="clipboard">
-  required_version = "0.15.0"
-</pre>
+<pre class="file" data-target="clipboard">  required_version = "0.15.0"</pre>
 
 ### Initialize Terraform
 
