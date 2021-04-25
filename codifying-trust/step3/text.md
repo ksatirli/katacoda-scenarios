@@ -1,6 +1,6 @@
 ## Variable Types
 
-> ⚠️ If the Katacoda Editor interface does not show the `variables.tf` file, please click the <i class="fa fa-sync"></i> Refresh button.
+> ⚠️ If the Katacoda Editor interface does not show the `variables.tf` and `outputs.tf` files, please click the <i class="fa fa-sync"></i> Refresh button.
 
 ---
 
@@ -10,45 +10,38 @@ In this step, we will carry out three tasks:
 
 1.) Add a type identifier to three variables.
 
-2.) Add a minimal version requirement for Terraform.
+2.) Add a default value to one variable.
 
 ---
 
-Let's look at the Terraform providers we are setting up today:
+Let's look at the variables we are working with today:
 
-> `terraform.tf`{{open}}
+> `variables.tf`{{open}}
 
-### Add a version identifier for the `local` Provider
+### Add a type identifier to three variables
 
-The latest version of the `local` provider is `2.1.0`{{copy}}.
+Terraform supports various type identifiers.
 
-Providers can be pinned to a specific version using the `version` attribute:
+Pick the right options for the variables:
 
-<pre class="file" data-target="clipboard">      version = "2.1.0"</pre>
+* `type = bool`{{copy}} for Booleans
+* `type = number`{{copy}} for Numbers
+* `type = string`{{copy}} for Strings
 
-### Add a version requirement for Terraform
+Copy and paste the type identifiers into the correct variables.
 
-The latest version of Terraform is `0.15.0`{{copy}}.
+### Add a default value to one variable
 
-Terraform code can be pinned to a specific version using the `required_version` attribute:
+Providing (sensible) default values helps you and other maintainers to better understand the code you are using.
 
-<pre class="file" data-target="clipboard">  required_version = "0.15.0"</pre>
+Add a default value of `test` to the `environment` variable:
 
-### Initialize Terraform
-
-Now we have our providers all set, let's initialize our project with Terraform.
-
-`terraform init`{{execute}}
-
-This step will ensure that you are running the correct version of Terraform (`0.15.0`) and it will download the `2.1.0` version of the `local` Provider.
-
-Recent versions of Terraform added support for a lock file: `.terraform.lock.hcl`{{open}}
-
-This file is maintained automatically by `terraform init`.
+<pre class="file" data-target="clipboard">default     = "test"</pre>
 
 ---
 
-After downloading the Terraform providers with the `terraform init` command, you'll be able to
-inspect the versions that were downloaded, and the machine architecture you're using (ex. `linux_amd64`).
+After completing these two tasks, execute Terraform:
 
-`tree .terraform`{{execute}}
+`terraform apply -auto-approve`{{execute}}
+
+> ⚠️ The `-auto-approve` flag automatically aproves Terraform operations. This is not recommended for production settings.

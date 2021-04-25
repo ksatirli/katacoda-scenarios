@@ -1,17 +1,17 @@
 variable "pet_name_length" {
-  type        = number
+  type        =
   description = "Length of Pet Name (in words)"
   default     = 3
 }
 
 variable "enable_random_suffix" {
-  type        = bool
+  type        =
   description = "Toggle to enable Random Prefix for Pet Name"
-  default     = "Project for Dash 2020 workshop: Pups and Pods"
+  default     = true
 }
 
-variable "env" {
-  type        = string
-  description = "Application Name"
-  default     = "beacon"
+variable "environment" {
+  type        =
+  description = "Environment Identifier"
+
 }

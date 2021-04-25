@@ -10,9 +10,9 @@ This makes it easier for future maintainers of this codebase to understand which
 
 In this step, we will carry out two tasks:
 
-1.) Add a version identifier for the latest version of the `random` Provider.
+1.) Add a version identifier for the `random` Provider.
 
-2.) Add a minimal version requirement for Terraform.
+2.) Add a version requirement for Terraform.
 
 ---
 
@@ -28,7 +28,7 @@ Providers can be pinned to a specific version using the `version` attribute:
 
 <pre class="file" data-target="clipboard">      version = "3.1.0"</pre>
 
-### Add a version requirement for Terraform
+### Add a version requirement for Terraform.
 
 The latest version of Terraform is `0.15.0`{{copy}}.
 

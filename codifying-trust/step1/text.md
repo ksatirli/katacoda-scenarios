@@ -13,3 +13,9 @@ First, let's confirm that we have a valid Terraform executable in our workspace.
 `terraform version`{{execute}}
 
 ❓ Does this version look correct?
+
+If so, change into the Workspace directory:
+
+`cd /workspace`{{execute}}
+
+And _CONTINUE_ to the next step.
