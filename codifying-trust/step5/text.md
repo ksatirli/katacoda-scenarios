@@ -1,6 +1,6 @@
 Adding Validation to variables is useful to create checks  a better understanding of what a variable does.
 
-In this step, we will carry out three tasks:
+In this step, we will carry out two tasks:
 
 1. Add numeric range validation to one variable
 2. Add a string validation to one variable
@@ -49,4 +49,6 @@ After completing this task, execute Terraform again:
 
 `terraform apply -auto-approve`{{execute}}
 
-❓ What does the output look like?
+❓ How would you fix the error?
+
+When you are ready, click _CONTINUE_ to go to the next step.

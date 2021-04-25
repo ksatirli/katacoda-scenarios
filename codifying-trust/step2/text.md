@@ -51,3 +51,5 @@ After downloading the Terraform providers with the `terraform init` command, you
 inspect the versions that were downloaded, and the machine architecture you're using (ex. `linux_amd64`).
 
 `tree .terraform`{{execute}}
+
+When you are ready, click _CONTINUE_ to go to the next step.

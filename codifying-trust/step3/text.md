@@ -52,3 +52,5 @@ Outputs:
 
 environment = "test"
 ```
+
+When you are ready, click _CONTINUE_ to go to the next step.

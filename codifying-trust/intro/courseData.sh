@@ -41,4 +41,17 @@ curl \
   "https://raw.githubusercontent.com/terraform-linters/tflint/master/install_linux.sh" \
   | bash
 
+# download OPA and make it available to $PATH
+curl \
+  --fail \
+  --location \
+  --output "opa" \
+  --silent \
+  --show-error \
+ "https://openpolicyagent.org/downloads/latest/opa_linux_amd64" \
+ && \
+ chmod +x opa \
+ && \
+ mv opa /usr/local/bin
+
 clear

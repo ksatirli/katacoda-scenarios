@@ -27,3 +27,5 @@ Descriptions can be added with the `description` attribute:
 After completing these two tasks, execute Terraform:
 
 `terraform apply -auto-approve`{{execute}}
+
+When you are ready, click _CONTINUE_ to go to the next step.

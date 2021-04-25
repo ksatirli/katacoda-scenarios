@@ -21,12 +21,13 @@
         "courseData": "step3/courseData.sh"
       }, {
         "title": "4 - Descriptions and Defaults",
-        "text": "step4/text.md",
-        "courseData": "step4/courseData.sh"
+        "text": "step4/text.md"
       }, {
         "title": "5 - Variable Validation",
-        "text": "step5/text.md",
-        "courseData": "step5/courseData.sh"
+        "text": "step5/text.md"
+      }, {
+        "title": "6 - Formatting and Validation",
+        "text": "step6/text.md"
       }
     ],
     "intro": {
