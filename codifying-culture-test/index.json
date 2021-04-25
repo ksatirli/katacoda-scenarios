@@ -9,7 +9,8 @@
     "steps": [{
         "title": "Step 1",
         "text": "step1/text.md",
-        "code": "step1/code.sh"
+        "code": "step1/code.sh",
+        "courseData": "step1/courseData.sh"
       }
     ],
     "intro": {
