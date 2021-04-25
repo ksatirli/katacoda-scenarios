@@ -11,9 +11,9 @@ In this step, we will carry out three tasks:
 
 ---
 
-Let's look at the outputs we are working with today:
+Let's look at the variables we are working with today.
 
-> `outputs.tf`{{open}}
+Click `outputs.tf`{{open}} to open it.
 
 ### Add a description to an output
 

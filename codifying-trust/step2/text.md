@@ -13,9 +13,9 @@ In this step, we will carry out two tasks:
 
 ---
 
-Let's look at the Terraform providers we are setting up today:
+Let's look at the Terraform providers we are setting up today.
 
-> `terraform.tf`{{open}}
+Click `terraform.tf`{{open}} to open it.
 
 ### Add a version identifier for the `random` Provider
 

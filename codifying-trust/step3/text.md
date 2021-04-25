@@ -13,9 +13,9 @@ In this step, we will carry out two tasks:
 
 ---
 
-Let's look at the variables we are working with today:
+Let's look at the variables we are working with today.
 
-> `variables.tf`{{open}}
+Click `variables.tf`{{open}} to open it.
 
 ### Add a type identifier to three variables
 
