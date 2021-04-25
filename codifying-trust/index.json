@@ -26,6 +26,15 @@
   },
   "environment": {
     "dashboards": [],
+    "exclusionPatterns": [
+      ".bashrc",
+      ".cache",
+      ".hushlogin",
+      ".profile",
+      ".ssh",
+      ".terraform.d",
+      ".vimrc"
+    ],
     "hideintro": false,
     "hideHiddenFiles": true,
     "showdashboard": false,
