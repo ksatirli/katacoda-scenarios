@@ -2,38 +2,25 @@
 
 ---
 
-Adding Descriptions to variables and outputs is useful to build
+As with variables, adding descriptions to outputs is useful to build a better understanding of what is being presented.
 
-In this step, we will carry out three tasks:
+In this step, we will carry out one task:
 
 1. Add a description to an output
-2. Add a default value to one variable
 
 ---
 
-Let's look at the variables we are working with today.
+Let's look at the outputs we are working with today.
 
 Click `outputs.tf`{{open}} to open it.
 
 ### Add a description to an output
 
-Terraform supports various type identifiers.
+Add a description to the `environment` output.
 
-Pick the right options for the variables:
+Descriptions can be added with the `description` attribute:
 
-* `type = bool`{{copy}} for Booleans
-* `type = number`{{copy}} for Numbers
-* `type = string`{{copy}} for Strings
-
-Copy and paste the type identifiers into the correct variables.
-
-### Add a default value to one variable
-
-Providing (sensible) default values helps you and other maintainers to better understand the code you are using.
-
-Add a default value of `test` to the `environment` variable:
-
-<pre class="file" data-target="clipboard">default     = "test"</pre>
+<pre class="file" data-target="clipboard">description     = "Environment"</pre>
 
 ---
 
