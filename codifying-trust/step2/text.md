@@ -44,6 +44,10 @@ Now we have our providers all set, let's initialize our project with Terraform.
 
 This step will ensure that you are running the correct version of Terraform (`0.15.0`) and it will download the `2.1.0` version of the `local` Provider.
 
+Recent versions of Terraform added support for a lock file: `.terraform.lock.hcl`{{open}}
+
+This file is maintained automatically by `terraform init`.
+
 ---
 
 After downloading the Terraform providers with the `terraform init` command, you'll be able to
