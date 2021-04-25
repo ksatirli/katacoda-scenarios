@@ -3,6 +3,17 @@
 SCENARIO_REPOSITORY="https://github.com/ksatirli/katacoda-scenarios.git"
 SCENARIO_WORKSPACE="/tmp/scenario"
 
+# create user workspace
+mkdir \
+  -p "/root"
+
+# clone course code into workspace amd copy relevant files for `step1` to workspace
+git \
+  clone \
+    --depth=1 \
+    "${SCENARIO_REPOSITORY}" \
+    "${SCENARIO_WORKSPACE}"
+
 # add repository key
 curl \
   --fail \
@@ -29,16 +40,5 @@ curl \
   --show-error \
   "https://raw.githubusercontent.com/terraform-linters/tflint/master/install_linux.sh" \
   | bash
-
-# create user workspace
-mkdir \
-  -p "/root"
-
-# clone course code into workspace amd copy relevant files for `step1` to workspace
-git \
-  clone \
-    --depth=1 \
-    "${SCENARIO_REPOSITORY}" \
-    "${SCENARIO_WORKSPACE}"
 
 clear
