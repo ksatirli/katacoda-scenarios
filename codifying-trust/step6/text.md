@@ -15,7 +15,7 @@ The `terraform fmt` command rewrites configuration files to a canonical format a
 
 > ⚠️ We are executing `fmt` manually. Consider running this step automatically when you use Terraform.
 
-The output should look like this:
+The output should include one or more of the following files:
 
 ```text
 outputs.tf

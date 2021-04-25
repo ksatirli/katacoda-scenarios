@@ -21,7 +21,7 @@ output "container_ip" {
   value       = docker_container.beacon.ip_address
 }
 
-output "container_command" {
-  description = "Command to poll HTTP interface of `beacon` container"
-  value       = "curl http://${docker_container.beacon.ip_address}:8080"
-}
+#output "container_command" {
+#  description = "Command to poll HTTP interface of `beacon` container"
+#  value       = "curl http://${docker_container.beacon.ip_address}"
+#}

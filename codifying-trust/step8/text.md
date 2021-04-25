@@ -55,10 +55,23 @@ The output should look like this:
 ```text
 Outputs:
 
-environment       = "test"
-container_ip      = ""
-container_command = ""
+container_ip = "172.18.0.2"
+environment  = "tst"
 ```
+
+Note that the IP address may be different for you.
+
+### (Optional) Query the output of the Docker Container
+
+Terraform can display outputs in _raw_ form. This allows for data to be used in scripting.
+
+Use the `-raw` flag for this:
+
+`curl $(terraform output -raw "container_ip")`{{execute}}
+
+This will execute the `curl` command and poll Terraform for the output of `container_ip`.
+
+The resulting `curl` output will be the HTML of the Beacon website.
 
 ---
 
