@@ -30,11 +30,11 @@
         "text": "step6/text.md"
       }, {
         "title": "7 - Preparing Resources",
-        "text": "step7/text.md",
-        "courseData": "step7/courseData.sh"
+        "text": "step7/text.md"
       }, {
         "title": "8 - Commenting code",
-        "text": "step8/text.md"
+        "text": "step8/text.md",
+        "courseData": "step7/courseData.sh"
       }
     ],
     "intro": {
