@@ -40,5 +40,3 @@ Add a default value of `test` to the `environment` variable:
 After completing these two tasks, execute Terraform:
 
 `terraform apply -auto-approve`{{execute}}
-
-> ⚠️ The `-auto-approve` flag automatically aproves Terraform operations. This is not recommended for production settings.

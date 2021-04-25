@@ -44,3 +44,11 @@ After completing these two tasks, execute Terraform:
 `terraform apply -auto-approve`{{execute}}
 
 > ⚠️ The `-auto-approve` flag automatically approves Terraform operations. This is not recommended for production settings.
+
+The output should look like this:
+
+```text
+Outputs:
+
+environment = "test"
+```

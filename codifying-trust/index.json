@@ -6,7 +6,8 @@
   "time": "90 minutes",
   "noindex": true,
   "details": {
-    "steps": [{
+    "steps": [
+      {
         "title": "1 - Workspace Setup",
         "text": "step1/text.md",
         "code": "step1/code.sh"
@@ -15,14 +16,18 @@
         "text": "step2/text.md",
         "courseData": "step2/courseData.sh"
       }, {
-      "title": "3 - Variable Types",
-      "text": "step3/text.md",
-      "courseData": "step3/courseData.sh"
+        "title": "3 - Variable Types",
+        "text": "step3/text.md",
+        "courseData": "step3/courseData.sh"
       }, {
-      "title": "4 - Descriptions",
-      "text": "step4/text.md",
-      "courseData": "step4/courseData.sh"
-    }
+        "title": "4 - Output Descriptions",
+        "text": "step4/text.md",
+        "courseData": "step4/courseData.sh"
+      }, {
+        "title": "5 - Variable Validation",
+        "text": "step5/text.md",
+        "courseData": "step5/courseData.sh"
+      }
     ],
     "intro": {
       "text": "intro/text.md",
