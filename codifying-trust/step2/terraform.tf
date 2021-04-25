@@ -1,8 +1,8 @@
 terraform {
   required_providers {
-    local = {
-      # see https://registry.terraform.io/providers/hashicorp/local/latest
-      source  = "hashicorp/local"
+    random = {
+      # see https://registry.terraform.io/providers/hashicorp/random/latest
+      source  = "hashicorp/random"
 
     }
   }
