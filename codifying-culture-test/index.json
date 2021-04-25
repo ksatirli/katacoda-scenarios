@@ -17,7 +17,7 @@
       "courseData": "intro/courseData.sh"
     },
     "finish": {
-      "text": "finish.md"
+      "text": "finish/text.md"
     }
   },
   "environment": {
