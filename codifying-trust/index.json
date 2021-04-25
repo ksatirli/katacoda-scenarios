@@ -26,15 +26,12 @@
   },
   "environment": {
     "dashboards": [],
-    "exclusionPatterns": [
-      ".terraform.d/"
-    ],
     "hideintro": false,
     "hideHiddenFiles": false,
     "showdashboard": false,
     "showide": false,
     "uilayout": "editor-terminal",
-    "uieditorpath": "/workspace/"
+    "uieditorpath": "/workspace"
   },
   "backend": {
     "imageid": "ubuntu:2004"
