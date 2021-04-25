@@ -26,7 +26,7 @@
     "hideintro": false,
     "hideHiddenFiles": true,
     "showdashboard": false,
-    "showide": true,
+    "showide": false,
     "uilayout": "editor-terminal",
     "uieditorpath": "/root/"
   },

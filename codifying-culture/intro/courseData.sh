@@ -2,7 +2,6 @@
 
 SCENARIO_REPOSITORY="https://github.com/ksatirli/katacoda-scenarios.git"
 SCENARIO_WORKSPACE="/tmp/scenario"
-USER_WORKSPACE="/root/"
 
 # add repository key
 curl \
@@ -33,16 +32,13 @@ curl \
 
 # create user workspace
 mkdir \
-  -p "${USER_WORKSPACE}"
+  -p "/root"
 
 # clone course code into workspace amd copy relevant files for `step1` to workspace
 git \
   clone \
     --depth=1 \
     "${SCENARIO_REPOSITORY}" \
-    "${SCENARIO_WORKSPACE}" \
-&& \
-cp \
-  ${SCENARIO_WORKSPACE}/codifying-culture/step1/*.tf "${USER_WORKSPACE}/"
+    "${SCENARIO_WORKSPACE}"
 
 clear
