@@ -28,11 +28,11 @@
     "dashboards": [],
     "exclusionPatterns": [
       "./.bashrc",
-      "./.cache",
+      "./.cache/",
       "./.hushlogin",
       "./.profile",
-      "./.ssh",
-      "./.terraform.d",
+      "./.ssh/",
+      "./.terraform.d/",
       "./.vimrc"
     ],
     "hideintro": false,
