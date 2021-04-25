@@ -20,7 +20,7 @@ Add a description to the `environment` output.
 
 Descriptions can be added with the `description` attribute:
 
-<pre class="file" data-target="clipboard">description     = "Environment"</pre>
+<pre class="file" data-target="clipboard">  description = "Environment"</pre>
 
 ---
 

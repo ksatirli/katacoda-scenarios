@@ -19,7 +19,7 @@ Let's set up a validation for this:
 
 <pre class="file" data-target="clipboard">
   validation {
-    condition     = length(var.pet_name_length) >= 1 && length(var.pet_name_length) <= 3
+    condition     = var.pet_name_length >= 1 && var.pet_name_length <= 3
     error_message = "The range of `pet_name_length` must be between 1 and 3."
   }
 </pre>
