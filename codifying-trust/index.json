@@ -42,6 +42,7 @@
       "courseData": "intro/courseData.sh"
     },
     "finish": {
+      "title": "Done!",
       "text": "finish/text.md"
     }
   },
