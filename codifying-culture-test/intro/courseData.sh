@@ -22,6 +22,15 @@ apt \
   install \
   terraform
 
+# install TFLint
+curl \
+  --fail \
+  --location \
+  --silent \
+  --show-error \
+  "https://raw.githubusercontent.com/terraform-linters/tflint/master/install_linux.sh" \
+  | bash
+
 # create user workspace
 mkdir \
   -p "${USER_WORKSPACE}"
