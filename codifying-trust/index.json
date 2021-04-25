@@ -34,7 +34,7 @@
     "showdashboard": false,
     "showide": false,
     "uilayout": "editor-terminal",
-    "uieditorpath": "/tmp/workspace/"
+    "uieditorpath": "/workspace/"
   },
   "backend": {
     "imageid": "ubuntu:2004"
