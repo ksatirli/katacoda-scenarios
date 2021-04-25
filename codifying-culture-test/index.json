@@ -13,7 +13,7 @@
       }
     ],
     "intro": {
-      "text": "intro.md",
+      "text": "intro/text.md",
       "courseData": "intro/courseData.sh"
     },
     "finish": {
