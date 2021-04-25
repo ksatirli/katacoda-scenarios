@@ -27,20 +27,14 @@
   "environment": {
     "dashboards": [],
     "exclusionPatterns": [
-      ".bashrc",
-      ".cache/",
-      ".hushlogin",
-      ".profile",
-      ".ssh/",
-      ".terraform.d/",
-      ".vimrc"
+      ".terraform.d/"
     ],
     "hideintro": false,
     "hideHiddenFiles": false,
     "showdashboard": false,
     "showide": false,
     "uilayout": "editor-terminal",
-    "uieditorpath": "/root/"
+    "uieditorpath": "/tmp/workspace/"
   },
   "backend": {
     "imageid": "ubuntu:2004"

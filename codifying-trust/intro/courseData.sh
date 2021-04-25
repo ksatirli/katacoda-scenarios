@@ -5,7 +5,7 @@ SCENARIO_WORKSPACE="/tmp/scenario"
 
 # create user workspace
 mkdir \
-  -p "/root"
+  -p "/tmp/workspace"
 
 # clone course code into workspace amd copy relevant files for `step1` to workspace
 git \
