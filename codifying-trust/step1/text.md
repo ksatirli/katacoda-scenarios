@@ -1,8 +1,4 @@
-## Workspace Setup
-
-Welcome! Today's session is going to be much more action packed than your standard workshop.
-
-> ⚠️ If you have questions at any point, please use Zoom's "✋ Raise Hand" feature.
+> ⚠️ If you have questions at any point, please use Zoom's **✋ Raise Hand** feature.
 
 # Verify local installations
 
@@ -18,4 +14,4 @@ If so, change into the Workspace directory:
 
 `cd /workspace`{{execute}}
 
-And _CONTINUE_ to the next step.
+Then, click _CONTINUE_ to go to the next step.

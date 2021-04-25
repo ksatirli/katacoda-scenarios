@@ -1,23 +1,21 @@
-## Variable Types
-
 > ⚠️ If the Katacoda Editor interface does not show the `variables.tf` and `outputs.tf` files, please click the <i class="fa fa-sync"></i> Refresh button.
 
 ---
 
-Typing variables guarantees that your code will not execute if the wrong variable type is provided.
+Adding Descriptions to variables and outputs is useful to build
 
-In this step, we will carry out two tasks:
+In this step, we will carry out three tasks:
 
-1. Add a type identifier to three variables
+1. Add a description to an output
 2. Add a default value to one variable
 
 ---
 
-Let's look at the variables we are working with today:
+Let's look at the outputs we are working with today:
 
-> `variables.tf`{{open}}
+> `outputs.tf`{{open}}
 
-### Add a type identifier to three variables
+### Add a description to an output
 
 Terraform supports various type identifiers.
 
@@ -43,4 +41,4 @@ After completing these two tasks, execute Terraform:
 
 `terraform apply -auto-approve`{{execute}}
 
-> ⚠️ The `-auto-approve` flag automatically approves Terraform operations. This is not recommended for production settings.
+> ⚠️ The `-auto-approve` flag automatically aproves Terraform operations. This is not recommended for production settings.

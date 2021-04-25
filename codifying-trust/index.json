@@ -7,18 +7,22 @@
   "noindex": true,
   "details": {
     "steps": [{
-        "title": "Step 1",
+        "title": "1 - Workspace Setup",
         "text": "step1/text.md",
         "code": "step1/code.sh"
       }, {
-        "title": "Step 2",
+        "title": "2 - Version Pinning",
         "text": "step2/text.md",
         "courseData": "step2/courseData.sh"
       }, {
-      "title": "Step 3",
+      "title": "3 - Variable Types",
       "text": "step3/text.md",
-      "courseData": "step2/courseData.sh"
-      }
+      "courseData": "step3/courseData.sh"
+      }, {
+      "title": "4 - Descriptions",
+      "text": "step4/text.md",
+      "courseData": "step4/courseData.sh"
+    }
     ],
     "intro": {
       "text": "intro/text.md",

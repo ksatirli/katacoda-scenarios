@@ -1,5 +1,3 @@
-## Version Pinning
-
 > ⚠️ If the Katacoda Editor interface does not show the `terraform.tf` file, please click the <i class="fa fa-sync"></i> Refresh button.
 
 ---
@@ -10,9 +8,8 @@ This makes it easier for future maintainers of this codebase to understand which
 
 In this step, we will carry out two tasks:
 
-1.) Add a version identifier for the `random` Provider.
-
-2.) Add a version requirement for Terraform.
+1. Add a version identifier for the `random` Provider
+2. Add a version requirement for Terraform
 
 ---
 
