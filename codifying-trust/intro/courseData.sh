@@ -41,8 +41,4 @@ curl \
   "https://raw.githubusercontent.com/terraform-linters/tflint/master/install_linux.sh" \
   | bash
 
-kccopy() {
-  cp "/tmp/scenario/codifying-trust/step${1}" "/root/step${1}"
-}
-
 clear
