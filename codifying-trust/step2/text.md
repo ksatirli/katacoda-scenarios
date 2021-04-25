@@ -16,13 +16,19 @@ In this step, we will carry out two tasks:
 
 ---
 
+Let's look at the Terraform providers we are setting up today:
+
+> `terraform.tf`{{open}}
+
 ### Add a version identifier for the `local` Provider
 
 The latest version of the `local` provider is `2.1.0`{{copy}}.
 
 Providers can be pinned to a specific version using the `version` attribute:
 
-`      version = "2.1.0"`{{copy}}
+<pre class="file" data-target="clipboard">
+      version = "2.1.0"
+</pre>
 
 ### Add a version requirement for Terraform
 
@@ -30,24 +36,19 @@ The latest version of Terraform is `0.15.0`{{copy}}.
 
 Terraform code can be pinned to a specific version using the `required_version` attribute:
 
-`  required_version = "0.15.0"`{{copy}}
+<pre class="file" data-target="clipboard">
+  required_version = "0.15.0"
+</pre>
 
-Now that we have our providers all set, let's initialize our project with Terraform.
+### Initialize Terraform
 
-`terraform init`{{execute}}
-
-This step will ensure that you are running the correct version of Terrafor (`0.15.0`) and it will download the `2.1.0` version of the `local` Provider.
-
-
-
--------
-Let's look at the Terraform providers we are setting up today:
-
-> `terraform.tf`{{open}}
-
-Now that we have our providers all set, let's initialize our project with Terraform.
+Now we have our providers all set, let's initialize our project with Terraform.
 
 `terraform init`{{execute}}
+
+This step will ensure that you are running the correct version of Terraform (`0.15.0`) and it will download the `2.1.0` version of the `local` Provider.
+
+---
 
 After downloading the Terraform providers with the `terraform init` command, you'll be able to
 inspect the versions that were downloaded, and the machine architecture you're using (ex. `linux_amd64`).
