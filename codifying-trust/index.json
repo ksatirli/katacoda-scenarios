@@ -35,6 +35,10 @@
         "title": "8 - Documenting Resources",
         "text": "step8/text.md",
         "courseData": "step8/courseData.sh"
+      }, {
+        "title": "9 - Module Testing (Preview)",
+        "text": "step9/text.md",
+        "courseData": "step9/courseData.sh"
       }
     ],
     "intro": {
