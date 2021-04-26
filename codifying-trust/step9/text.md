@@ -19,11 +19,26 @@ Let's start by changing into the module directory:
 
 `cd /workspace/terraform-test`{{execute}}
 
+Next, initialize the module codebase.
+
+`terraform init`{{execute}}
+
 Next, let's see what the module does:
 
 `terraform apply -auto-approve`{{execute}}
 
-The output should contain commonly used HTTP headers.
+The output should look like this:
+
+```text
+checkpoint_body = "{...}"
+checkpoint_response_headers = tomap({
+  "Access-Control-Allow-Headers" = "Accept, Cache-Control, X-Requested-With, Content-Type"
+  "Access-Control-Allow-Methods" = "GET, OPTIONS"
+  "Content-Type" = "application/json"
+  (... more headers)
+})
+checkpoint_url = "https://checkpoint-api.hashicorp.com/v1/check/terraform"
+```
 
 ### Run `terraform test`
 
