@@ -1,0 +1,65 @@
+{
+  "title": "DevOpsDays Kraków 2021: Codifying Trust",
+  "description": "Building trust by writing trustworthy code.",
+  "icon": "fa-terraform",
+  "difficulty": "Intermediate",
+  "time": "90 minutes",
+  "noindex": true,
+  "details": {
+    "steps": [
+      {
+        "title": "1 - Workspace Setup",
+        "text": "step1/text.md",
+        "code": "step1/code.sh"
+      }, {
+        "title": "2 - Version Pinning",
+        "text": "step2/text.md",
+        "courseData": "step2/courseData.sh"
+      }, {
+        "title": "3 - Variable Types",
+        "text": "step3/text.md",
+        "courseData": "step3/courseData.sh"
+      }, {
+        "title": "4 - Descriptions and Defaults",
+        "text": "step4/text.md"
+      }, {
+        "title": "5 - Variable Validation",
+        "text": "step5/text.md"
+      }, {
+        "title": "6 - Formatting and Validation",
+        "text": "step6/text.md"
+      }, {
+        "title": "7 - Preparing Resources",
+        "text": "step7/text.md"
+      }, {
+        "title": "8 - Documenting Resources",
+        "text": "step8/text.md",
+        "courseData": "step8/courseData.sh"
+      }, {
+        "title": "9 - Module Testing (Preview)",
+        "text": "step9/text.md",
+        "courseData": "step9/courseData.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro/text.md",
+      "courseData": "intro/courseData.sh"
+    },
+    "finish": {
+      "title": "Done!",
+      "text": "finish/text.md"
+    }
+  },
+  "environment": {
+    "dashboards": [],
+    "hideintro": false,
+    "hideHiddenFiles": false,
+    "showdashboard": false,
+    "showide": false,
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/workspace"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}

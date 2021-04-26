@@ -1,6 +1,6 @@
 {
   "title": "Dash 2020: From Provisioning to Production",
-  "description": "Automating Observability Principles with Terraform",
+  "description": "Automating Observability with Terraform.",
   "icon": "fa-terraform",
   "difficulty": "Intermediate",
   "time": "90 minutes",
